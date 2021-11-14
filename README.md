@@ -25,7 +25,7 @@
 
 流程就是 在教务网登录后拿到登录状态的Cookie，然后带着Cookie直接POST表单地址。
 
-![1581636855226_.pic](/Users/macsen/Desktop/1581636855226_.pic.jpg)
+![1581636855226_.pic](https://raw.githubusercontent.com/MacsenChu/daily_heatlth/main/image/1581636855226_.pic.jpg)
 
 这个教务网登录的表单有极多的隐藏域，所以采用selenium模拟人工输入，验证码则采用卷积神经网络，训练好模型后去识别。
 
@@ -37,7 +37,7 @@
 
 前面读取数据、解析csv文件不予列举了，(偷偷的说)训练集是我从教务网上爬了几千个验证码…
 
-![WX20211114-135638@2x](/Users/macsen/Desktop/WX20211114-135638@2x.png)
+![WX20211114-135638@2x](https://raw.githubusercontent.com/MacsenChu/daily_heatlth/main/image/WX20211114-135638@2x.png)
 
 ### 构建卷积神经网络->y_predict
 
@@ -231,7 +231,7 @@ def captcha_train():
 
 我优化了一些参数，第一百多批次训练后就已经出现100%的准确率了，测试集的表现也在99%以上。
 
-![image-20211114125346935](/Users/macsen/Desktop/image-20211114125346935.png)
+![image-20211114125346935](https://raw.githubusercontent.com/MacsenChu/daily_heatlth/main/image/image-20211114125346935.png)
 
 
 
@@ -239,7 +239,7 @@ def captcha_train():
 
 随便找几个验证码 也是手拿把掐
 
-![WX20211114-134534@2x](/Users/macsen/Desktop/WX20211114-134534@2x.png)
+![WX20211114-134534@2x](https://raw.githubusercontent.com/MacsenChu/daily_heatlth/main/image/WX20211114-134534@2x.png)
 
 
 
@@ -391,9 +391,9 @@ def send_mail(msg, header):
 
 ### 测试
 
-![1621636867304_.pic](/Users/macsen/Desktop/1621636867304_.pic.jpg)
+![1621636867304_.pic](https://raw.githubusercontent.com/MacsenChu/daily_heatlth/main/image/1621636867304_.pic.jpg)
 
-![1631636867305_.pic](/Users/macsen/Desktop/1631636867305_.pic.jpg)
+![1631636867305_.pic](https://raw.githubusercontent.com/MacsenChu/daily_heatlth/main/image/1631636867305_.pic.jpg)
 
 ### CentOS定时运行
 
